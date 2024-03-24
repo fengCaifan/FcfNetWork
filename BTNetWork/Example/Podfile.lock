@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BTNetWork (0.1.0):
+    - Alamofire (~> 4.8.2)
+    - HandyJSON (= 5.0.2-beta)
+  - HandyJSON (5.0.2-beta)
+
+DEPENDENCIES:
+  - BTNetWork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+
+EXTERNAL SOURCES:
+  BTNetWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BTNetWork: 8b4be67b9b88aef69e141cad1535fbb2e1dd10f0
+  HandyJSON: e18b035d60cb4847c609a59bb831c5db8c549663
+
+PODFILE CHECKSUM: fc0e5fef0d7eafd222dbd36073e04d7888ae5ead
+
+COCOAPODS: 1.10.0

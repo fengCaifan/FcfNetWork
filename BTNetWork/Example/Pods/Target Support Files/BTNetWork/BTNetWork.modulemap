@@ -1,0 +1,6 @@
+framework module BTNetWork {
+  umbrella header "BTNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

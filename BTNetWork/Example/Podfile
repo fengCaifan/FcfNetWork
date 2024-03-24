@@ -1,0 +1,13 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+use_frameworks!
+
+target 'BTNetWork_Example' do
+  pod 'BTNetWork', :path => '../'
+
+  target 'BTNetWork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
